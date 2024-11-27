@@ -2,7 +2,7 @@
 Next.js does file-system routing. It will serve each file in a directory called ‘pages’ 
 under a pathname matching the filename. For example, ‘/pages/about.js’ is served at http://your_sites_name.com/about.
  */
-import Layout from '../components/MyLayout'
+import Layout from '../components/Layout'
 
 export default () => (
   <Layout>
